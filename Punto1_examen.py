@@ -21,7 +21,7 @@ def registrar_producto():
                 print("Precio inválido. Ingrese solo valores numéricos.")
 
     descripcion = input("Ingrese la descripción del producto: ")
-    casa = input("Ingrese la casa a la que pertenece el producto (Lacteo, Carnico, etc): ")
+    casa = input("Ingrese la casa a la que pertenece el producto (Drama, Accion, Superheroes, etc): ")
     referencia = input("Ingrese la referencia del producto (código alfanumérico): ")
     pais_origen = input("Ingrese el país de origen del producto: ")
     garantia_extendida = input("El producto tiene garantía extendida (true/false): ").lower() == "true"
